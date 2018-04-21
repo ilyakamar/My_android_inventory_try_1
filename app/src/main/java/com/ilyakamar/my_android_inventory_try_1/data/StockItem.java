@@ -1,6 +1,6 @@
 package com.ilyakamar.my_android_inventory_try_1.data;
 
-public class StockItem {
+public class StockItem {// START StockItem
 
     private final String productName;
     private final String price;
@@ -10,6 +10,7 @@ public class StockItem {
     private final String supplierEmail;
     private final String image;
 
+    // constructor
     public StockItem(String productName, String price, int quantity, String supplierName, String supplierPhone, String supplierEmail, String image) {
         this.productName = productName;
         this.price = price;
@@ -59,5 +60,5 @@ public class StockItem {
                 '}';
     }
 
-}
+}// END StockItem
 

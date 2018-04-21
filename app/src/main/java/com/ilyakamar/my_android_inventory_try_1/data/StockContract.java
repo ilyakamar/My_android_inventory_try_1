@@ -3,18 +3,16 @@ package com.ilyakamar.my_android_inventory_try_1.data;
 
 import android.provider.BaseColumns;
 
-/**
- * Created by lara on 2/10/16.
- */
-public class StockContract {
+public class StockContract {// START StockContract
 
-    public StockContract() {
+    public StockContract() {// empty constructor
     }
 
     public static final class StockEntry implements BaseColumns {
 
         public static final String TABLE_NAME = "stock";
 
+        // COLUMNS
         public static final String _ID = BaseColumns._ID;
         public static final String COLUMN_NAME = "name";
         public static final String COLUMN_PRICE = "price";
@@ -24,6 +22,8 @@ public class StockContract {
         public static final String COLUMN_SUPPLIER_EMAIL = "supplier_email";
         public static final String COLUMN_IMAGE = "image";
 
+
+        // CREATE TABLE
         public static final String CREATE_TABLE_STOCK = "CREATE TABLE " +
                 StockContract.StockEntry.TABLE_NAME + "(" +
                 StockContract.StockEntry._ID + " INTEGER PRIMARY KEY AUTOINCREMENT," +
@@ -35,5 +35,5 @@ public class StockContract {
                 StockContract.StockEntry.COLUMN_SUPPLIER_EMAIL + " TEXT NOT NULL," +
                 StockEntry.COLUMN_IMAGE + " TEXT NOT NULL" + ");";
     }
-}
+}// END StockContract
 

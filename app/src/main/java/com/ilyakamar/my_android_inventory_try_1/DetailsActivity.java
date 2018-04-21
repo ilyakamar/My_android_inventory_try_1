@@ -27,6 +27,8 @@ import com.ilyakamar.my_android_inventory_try_1.data.InventoryDbHelper;
 import com.ilyakamar.my_android_inventory_try_1.data.StockContract;
 import com.ilyakamar.my_android_inventory_try_1.data.StockItem;
 
+
+
 public class DetailsActivity extends AppCompatActivity {
 
     private static final String LOG_TAG = DetailsActivity.class.getCanonicalName();
