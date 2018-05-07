@@ -10,8 +10,15 @@ public class StockItem {// START StockItem
     private final String supplierEmail;
     private final String image;
 
-    // constructor
-    public StockItem(String productName, String price, int quantity, String supplierName, String supplierPhone, String supplierEmail, String image) {
+    // constructor ------------------
+    public StockItem(String productName,
+                     String price,
+                     int quantity,
+                     String supplierName,
+                     String supplierPhone,
+                     String supplierEmail,
+                     String image) {
+
         this.productName = productName;
         this.price = price;
         this.quantity = quantity;
@@ -19,7 +26,7 @@ public class StockItem {// START StockItem
         this.supplierPhone = supplierPhone;
         this.supplierEmail = supplierEmail;
         this.image = image;
-    }
+    }//end ----------------------------
 
     public String getProductName() {
         return productName;

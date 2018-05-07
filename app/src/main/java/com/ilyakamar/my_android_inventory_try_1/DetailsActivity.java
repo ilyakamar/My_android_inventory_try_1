@@ -29,10 +29,11 @@ import com.ilyakamar.my_android_inventory_try_1.data.StockItem;
 
 
 
-public class DetailsActivity extends AppCompatActivity {
+public class DetailsActivity extends AppCompatActivity {// START DetailsActivity
 
     private static final String LOG_TAG = DetailsActivity.class.getCanonicalName();
     private static final int MY_PERMISSIONS_REQUEST_READ_EXTERNAL_STORAGE = 1;
+
     private InventoryDbHelper dbHelper;
     EditText nameEdit;
     EditText priceEdit;
@@ -50,9 +51,10 @@ public class DetailsActivity extends AppCompatActivity {
     Boolean infoItemHasChanged = false;
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    protected void onCreate(Bundle savedInstanceState) {// start onCreate
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_details);
+
         if (getSupportActionBar() != null) {
             getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         }
@@ -101,7 +103,7 @@ public class DetailsActivity extends AppCompatActivity {
                 infoItemHasChanged = true;
             }
         });
-    }
+    }// end onCreate
 
     @Override
     public void onBackPressed() {
@@ -421,4 +423,4 @@ public class DetailsActivity extends AppCompatActivity {
             }
         }
     }
-}
+}// END DetailsActivity

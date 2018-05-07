@@ -105,7 +105,7 @@ public class MainActivity extends AppCompatActivity {
     private void addDummyData() {
         StockItem gummibears = new StockItem(
                 "Gummibears",
-                "10 €",
+                "10 שח",
                 45,
                 "Haribo GmbH",
                 "+49 000 000 0000",
@@ -115,7 +115,7 @@ public class MainActivity extends AppCompatActivity {
 
         StockItem peaches = new StockItem(
                 "Peaches",
-                "10 €",
+                "10 שח",
                 24,
                 "Haribo GmbH",
                 "+49 000 000 0000",
@@ -125,7 +125,7 @@ public class MainActivity extends AppCompatActivity {
 
         StockItem cherries = new StockItem(
                 "Cherries",
-                "11 €",
+                "11 שח",
                 74,
                 "Haribo GmbH",
                 "+49 000 000 0000",
@@ -135,7 +135,7 @@ public class MainActivity extends AppCompatActivity {
 
         StockItem cola = new StockItem(
                 "Cola",
-                "13 €",
+                "13 שח",
                 44,
                 "Haribo GmbH",
                 "+49 000 000 0000",
@@ -145,7 +145,7 @@ public class MainActivity extends AppCompatActivity {
 
         StockItem fruitSalad = new StockItem(
                 "Fruit salad",
-                "20 €",
+                "20 שח",
                 34,
                 "Haribo GmbH",
                 "+49 000 000 0000",
@@ -155,7 +155,7 @@ public class MainActivity extends AppCompatActivity {
 
         StockItem smurfs = new StockItem(
                 "Smurfs",
-                "12 €",
+                "12 שח",
                 26,
                 "Haribo GmbH",
                 "+49 000 000 0000",
@@ -165,7 +165,7 @@ public class MainActivity extends AppCompatActivity {
 
         StockItem fresquito = new StockItem(
                 "Fresquito",
-                "9 €",
+                "9 שח",
                 54,
                 "Fiesta S.A.",
                 "+34 000 000 0000",
@@ -175,7 +175,7 @@ public class MainActivity extends AppCompatActivity {
 
         StockItem hotChillies = new StockItem(
                 "Hot chillies",
-                "13 €",
+                "13 שח",
                 12,
                 "Fiesta S.A.",
                 "+34 000 000 0000",
@@ -185,7 +185,7 @@ public class MainActivity extends AppCompatActivity {
 
         StockItem lolipopStrawberry = new StockItem(
                 "Lolipop strawberry",
-                "12 €",
+                "12 שח",
                 62,
                 "Fiesta S.A.",
                 "+34 000 000 0000",
@@ -195,7 +195,7 @@ public class MainActivity extends AppCompatActivity {
 
         StockItem heartGummy = new StockItem(
                 "Heart gummy jellies",
-                "13 €",
+                "13 שח",
                 22,
                 "Fiesta S.A.",
                 "+34 000 000 0000",

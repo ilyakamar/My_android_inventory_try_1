@@ -12,18 +12,16 @@ import android.widget.TextView;
 
 import com.ilyakamar.my_android_inventory_try_1.data.StockContract;
 
-/**
- * Created by Lara on 03/10/2016.
- */
-public class StockCursorAdapter extends CursorAdapter {
+
+public class StockCursorAdapter extends CursorAdapter {// START StockCursorAdapter
 
 
     private final MainActivity activity;
 
-    public StockCursorAdapter(MainActivity context, Cursor c) {
+    public StockCursorAdapter(MainActivity context, Cursor c) {// constructor
         super(context, c, 0);
         this.activity = context;
-    }
+    }// end constructor
 
     @Override
     public View newView(Context context, Cursor cursor, ViewGroup viewGroup) {
@@ -65,4 +63,4 @@ public class StockCursorAdapter extends CursorAdapter {
             }
         });
     }
-}
+}// END StockCursorAdapter
